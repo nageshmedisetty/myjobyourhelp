@@ -1,0 +1,620 @@
+<!DOCTYPE html> 
+<html lang="en">
+	
+<!-- doccure/patient-dashboard.html  30 Nov 2019 04:12:16 GMT -->
+<head>
+		<meta charset="utf-8">
+		<title>Doccure</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		
+		<!-- Favicons -->
+		<link href="assets/img/favicon.png" rel="icon">
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- Fontawesome CSS -->
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+		
+		<!-- Main CSS -->
+		<link rel="stylesheet" href="assets/css/style.css">
+		
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="assets/js/html5shiv.min.js"></script>
+			<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+	
+	</head>
+	<body>
+
+		<!-- Main Wrapper -->
+		<div class="main-wrapper">
+		<!-- Header -->
+			<header class="header">
+				<nav class="navbar navbar-expand-lg header-nav">
+					<div class="navbar-header">
+						<a id="mobile_btn" href="javascript:void(0);">
+							<span class="bar-icon">
+								<span></span>
+								<span></span>
+								<span></span>
+							</span>
+						</a>
+						<a href="index-2.html" class="navbar-brand logo">
+							<img src="images/logo.png" class="img-fluid" alt="Logo" style="max-width: 52%;">
+						</a>
+					</div>
+					<div class="main-menu-wrapper">
+						<div class="menu-header">
+							<a href="index-2.html" class="menu-logo">
+								<img src="images/logo.png" class="img-fluid" alt="Logo" style="max-width: 52%;">
+							</a>
+							<a id="menu_close" class="menu-close" href="javascript:void(0);">
+								<i class="fas fa-times"></i>
+							</a>
+						</div>
+						<ul class="main-nav">
+							<li class="active">
+								<a href="index.html">Home</a>
+							</li>
+							<li><a href="newrequest.html">New Requests</a></li>
+							<li><a href="reviews.html">Reviews On Members</a></li>
+							
+							<li><a href="How it works.html">How It Works</a></li>
+							<li><a href="faq.html">FAQs</a></li>
+							<li><a href="contact.html">Contact US</a></li>
+							<li class="login-link">
+								<a href="login.html">Login / Signup</a>
+							</li>
+						</ul>	 
+					</div>		 
+					<ul class="nav header-navbar-rht">
+						
+						<li class="nav-item">
+							<a class="nav-link header-login" href="Dashboard.html" style="color: #f3736f;">My Account </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link header-login" href="Create-Request.html" style="background-color: #09dca4;color: #ffffff;border: #f3736f;">Creat Request </a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<!-- /Header -->
+			
+			<!-- Breadcrumb -->
+			<div class="breadcrumb-bar">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-md-12 col-12">
+							<nav aria-label="breadcrumb" class="page-breadcrumb">
+								<ol class="breadcrumb">
+									<li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+								</ol>
+							</nav>
+							<h2 class="breadcrumb-title">Dashboard</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Breadcrumb -->
+			
+			<!-- Page Content -->
+			<div class="content">
+				<div class="container-fluid">
+
+					<div class="row">
+						
+						<!-- Profile Sidebar -->
+						<div class="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar">
+							<div class="profile-sidebar">
+								<div class="widget-profile pro-widget-content">
+									<div class="profile-info-widget">
+										<a href="#" class="booking-doc-img">
+											<img src="assets/img/patients/patient.jpg" alt="User Image">
+										</a>
+										<div class="profile-det-info">
+											<h3>Hello Wilson</h3>
+										</div>
+									</div>
+								</div>
+								<div class="dashboard-widget">
+									<nav class="dashboard-menu">
+										<ul>
+											<li>
+												<a href="Dashboard.html">
+													<i class="fas fa-columns"></i>
+													<span>Dashboard</span>
+												</a>
+											</li>
+											<li>
+												<a href="myrequeatcenter.html">
+													<i class="fas fa-comments"></i>
+													<span>My Request Center</span>
+												</a>
+											</li>
+											<li class="active">
+												<a href="myhelprequest.html">
+													<i class="fas fa-comments"></i>
+													<span>My Help Center</span>
+												</a>
+											</li>
+											<li>
+												<a href="Provider-Requests.html">
+													<i class="fas fa-comments"></i>
+													<span>Approve Requests for Contact Info</span>
+												</a>
+											</li>
+											<li>
+												<a href="requester-enquiry.html">
+													<i class="fas fa-comments"></i>
+													<span>Help Provider Contact Info</span>
+												</a>
+											</li>
+											<li>
+												<a href="chat.html">
+													<i class="fas fa-comments"></i>
+													<span>Chat</span>
+												</a>
+											</li>
+											<li>
+												<a href="profile-settings.html">
+													<i class="fas fa-user-cog"></i>
+													<span>Profile Settings</span>
+												</a>
+											</li>
+											<li>
+												<a href="change-password.html">
+													<i class="fas fa-lock"></i>
+													<span>Change Password</span>
+												</a>
+											</li>
+											<li>
+												<a href="index-2.html">
+													<i class="fas fa-sign-out-alt"></i>
+													<span>Logout</span>
+												</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+
+							</div>
+						</div>
+						<!-- / Profile Sidebar -->
+						
+						<div class="col-md-7 col-lg-8 col-xl-9">
+							<div class="card">
+								<div class="card-body pt-0">
+								
+									<!-- Tab Menu -->
+									<nav class="user-tabs mb-4">
+										<ul class="nav nav-tabs nav-tabs-bottom nav-justified">
+											<li class="nav-item">
+												<a class="nav-link active" href="#pat_appointments" data-toggle="tab">My Help Centre</a>
+											</li>
+											</li>
+										</ul>
+									</nav>
+									<!-- /Tab Menu -->
+									
+									<div class="form-group col-7 col-md-3">
+																	<select class="form-control select">
+																		<option>Select Status</option>
+																		<option>Open</option>
+																		<option>Assigned to me</option>
+																		<option>Assigned to others</option>
+																		<option>Assigned to before</option>
+																		<option>Closed</option>
+																	</select>
+																	</div>
+									
+									<!-- Tab Content -->
+									<div class="tab-content pt-0">
+										
+										<!-- Appointment Tab -->
+										<div id="pat_appointments" class="tab-pane fade show active">
+											<div class="card card-table mb-0">
+												<div class="card-body">
+													<div class="table-responsive">
+														<table class="table table-hover table-center mb-0">
+															<thead>
+																<tr>
+																	<th>S.No</th>
+																	<th>Request ID</th>
+																	<th>Requester ID</th>
+																	<th>Brief Description</th>
+																	<th>Status</th>
+																	<th style="text-align: center;">Action</th>
+																	<th></th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>
+																		01
+																	</td>
+																	<td><a href="request-details.html">1001</a></td>
+																	<td>1021</td>
+																	<td>How To Install JAVA</td>
+																	<td><span class="badge badge-pill" style="color: white;background-color: coral;">Assigned to others</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> View Request
+																			</a>
+																		</div>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="Write-review.html" class="btn btn-sm" style="background-color: #bdbdbc;">
+																				Write Review  
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		02
+																	</td>
+																	<td><a href="request-details.html">1002</a></td>
+																	<td>1021</td>
+																	<td>How To Install JAVA</td>
+																	<td><span class="badge badge-pill bg-info-light">Assigned to me</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="Write-review.html" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> View Request
+																			</a>
+																		</div>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm" style="background-color: #bdbdbc;">
+																				Write Review  
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		03
+																	</td>
+																	<td><a href="request-details.html">1003</a></td>
+																	<td>1021</td>
+																	<td>How To Install JAVA</td>
+																	<td><span class="badge badge-pill" style="color: white;background-color: coral;">Assigned to others</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> View Request
+																			</a>
+																		</div>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="Write-review.html" class="btn btn-sm" style="background-color: #bdbdbc;">
+																				Write Review  
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		04
+																	</td>
+																	<td><a href="request-details.html">1004</a></td>
+																	<td>1021</td>
+																	<td>How To Install JAVA</td>
+																	<td><span class="badge badge-pill bg-info-light">Assigned to me</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> View Request
+																			</a>
+																		</div>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="Write-review.html" class="btn btn-sm" style="background-color: #bdbdbc;">
+																				Write Review  
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		05
+																	</td>
+																	<td><a href="request-details.html">1005</a></td>
+																	<td>1021</td>
+																	<td>How To Install JAVA</td>
+																	<td><span class="badge badge-pill" style="color: white;background-color: #ff00fc;">Assigned Before</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> View Request
+																			</a>
+																		</div>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="Write-review.html" class="btn btn-sm" style="background-color: #bdbdbc;">
+																				Write Review  
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		06
+																	</td>
+																	<td><a href="request-details.html">1006</a></td>
+																	<td>1021</td>
+																	<td>How To Install JAVA</td>
+																	<td><span class="badge badge-pill bg-success-light">Open</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> View Request
+																			</a>
+																		</div>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="Write-review.html" class="btn btn-sm" style="background-color: #bdbdbc;">
+																				Write Review  
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		07
+																	</td>
+																	<td><a href="request-details.html">1007</a></td>
+																	<td>1021</td>
+																	<td>How To Install JAVA</td>
+																	<td><span class="badge badge-pill bg-success-light">Open</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> View Request
+																			</a>
+																		</div>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="Write-review.html" class="btn btn-sm" style="background-color: #bdbdbc;">
+																				Write Review  
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		09
+																	</td>
+																	<td><a href="request-details.html">1009</a></td>
+																	<td>1021</td>
+																	<td>How To Install JAVA</td>
+																	<td><span class="badge badge-pill bg-danger-light">Closed</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> View Request
+																			</a>
+																		</div>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="Write-review.html" class="btn btn-sm" style="background-color: #bdbdbc;">
+																				Write Review  
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<td>
+																		10
+																	</td>
+																	<td><a href="request-details.html">1010</a></td>
+																	<td>1021</td>
+																	<td>How To Install JAVA</td>
+																	<td><span class="badge badge-pill bg-danger-light">Closed</span></td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="javascript:void(0);" class="btn btn-sm bg-info-light">
+																				<i class="far fa-eye"></i> View Request
+																			</a>
+																		</div>
+																	</td>
+																	<td class="text-right">
+																		<div class="table-action">
+																			<a href="Write-review.html" class="btn btn-sm" style="background-color: #bdbdbc;">
+																				Write Review  
+																			</a>
+																		</div>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- /Appointment Tab -->
+										
+										
+									</div>
+									<!-- Tab Content -->
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>		
+			<!-- /Page Content -->
+   
+			<!-- Footer -->
+			<footer class="footer">
+				
+				<!-- Footer Top -->
+				<div class="footer-top">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-3 col-md-6">
+							
+								<!-- Footer Widget -->
+								<div class="footer-widget footer-about">
+									<div class="footer-logo">
+										<img src="images/logo.png" alt="logo" style="width: 100px;">
+									</div>
+									<div class="footer-about-content">
+										<div class="social-icon">
+											<ul>
+												<li>
+													<a href="#" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+												</li>
+												<li>
+													<a href="#" target="_blank"><i class="fab fa-twitter"></i> </a>
+												</li>
+												<li>
+													<a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+												</li>
+												<li>
+													<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+												</li>
+												<li>
+													<a href="#" target="_blank"><i class="fab fa-dribbble"></i> </a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- /Footer Widget -->
+								
+							</div>
+							
+							<div class="col-lg-3 col-md-6">
+							
+								<!-- Footer Widget -->
+								<div class="footer-widget footer-menu">
+									<h2 class="footer-title">Quick Links</h2>
+									<ul>
+										<li><a href="patient-dashboard.html"><i class="fas fa-angle-double-right"></i> Home</a></li>
+										<li><a href="register.html"><i class="fas fa-angle-double-right"></i> New Requests</a></li>
+										<li><a href="booking.html"><i class="fas fa-angle-double-right"></i> Contact</a></li>
+									</ul>
+								</div>
+								<!-- /Footer Widget -->
+								
+							</div>
+							
+							<div class="col-lg-3 col-md-6">
+							
+								<!-- Footer Widget -->
+								<div class="footer-widget footer-menu">
+									<h2 class="footer-title">Quick Links</h2>
+									<ul>
+										<li><a href="appointments.html"><i class="fas fa-angle-double-right"></i> Faq's</a></li>
+										<li><a href="chat.html"><i class="fas fa-angle-double-right"></i> How it works</a></li>
+										<li><a href="login.html"><i class="fas fa-angle-double-right"></i> Help Provider Reviews</a></li>
+										<li><a href="doctor-register.html"><i class="fas fa-angle-double-right"></i> Help Requester Reviews</a></li>
+										<li><a href="doctor-dashboard.html"><i class="fas fa-angle-double-right"></i> Login</a></li>
+									</ul>
+								</div>
+								<!-- /Footer Widget -->
+								
+							</div>
+							
+							<div class="col-lg-3 col-md-6">
+							
+								<!-- Footer Widget -->
+								<div class="footer-widget footer-contact">
+									<h2 class="footer-title">Contact Us</h2>
+									<div class="footer-contact-info">
+										<div class="footer-address">
+											<span><i class="fas fa-map-marker-alt"></i></span>
+											<p> 3556  Beech Street, San Francisco,<br> California, CA 94108 </p>
+										</div>
+										<p>
+											<i class="fas fa-phone-alt"></i>
+											+1 315 369 5943
+										</p>
+										<p class="mb-0">
+											<i class="fas fa-envelope"></i>
+											info@myjobyourhelp.com
+										</p>
+									</div>
+								</div>
+								<!-- /Footer Widget -->
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<!-- /Footer Top -->
+				
+				<!-- Footer Bottom -->
+                <div class="footer-bottom">
+					<div class="container-fluid">
+					
+						<!-- Copyright -->
+						<div class="copyright">
+							<div class="row">
+								<div class="col-md-6 col-lg-6">
+									<div class="copyright-text">
+										<p class="mb-0"><a href="#">Myjob Your Help</a></p>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-6">
+								
+									<!-- Copyright Menu -->
+									<div class="copyright-menu">
+										<ul class="policy-menu">
+											<li><a href="term-condition.html">Terms and Conditions</a></li>
+											<li><a href="privacy-policy.html">Policy</a></li>
+										</ul>
+									</div>
+									<!-- /Copyright Menu -->
+									
+								</div>
+							</div>
+						</div>
+						<!-- /Copyright -->
+						
+					</div>
+				</div>
+				<!-- /Footer Bottom -->
+				
+			</footer>
+			<!-- /Footer -->
+		   
+		</div>
+		<!-- /Main Wrapper -->
+	  
+		<!-- jQuery -->
+		<script src="assets/js/jquery.min.js"></script>
+		
+		<!-- Bootstrap Core JS -->
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- Sticky Sidebar JS -->
+        <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+        <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+		
+		<!-- Custom JS -->
+		<script src="assets/js/script.js"></script>
+		
+	</body>
+
+<!-- doccure/patient-dashboard.html  30 Nov 2019 04:12:16 GMT -->
+</html>
